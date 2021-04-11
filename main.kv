@@ -1,0 +1,105 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'vertical'
+        MDLabel:
+            id:cal
+            font_style:'H6'
+        MDLabel:
+            id:ans
+            bold:True
+            font_style:'H3'
+            halign:'right'
+    BoxLayout:
+        GridLayout
+            cols:3
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('1')
+                    text:'1'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('2')
+                    text:'2'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('3')
+                    text:'3'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('4')
+                    text:'4'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('5')
+                    text:'5'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('6')
+                    text:'6'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('7')
+                    text:'7'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('8')
+                    text:'8'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('9')
+                    text:'9'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('0')
+                    text:'0'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('+')
+                    text:'+'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('-')
+                    text:'-'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('.')
+                    text:'o'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('*')
+                    text:'x'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('/')
+                    text:'/'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('clear')
+                    text:'C'
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('=')
+                    text:'='
+                    size_hint: 1,1
+            BoxLayout:
+                MDRaisedButton:
+                    on_press: app.a('CCC')
+                    text:'CCC'
+                    size_hint: 1,1
